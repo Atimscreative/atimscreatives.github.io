@@ -1,0 +1,45 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  width: 20%;
+  height: auto;
+  padding: 20px;
+  background: #fff;
+  margin: 70px auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.2);
+}
+
+.barcode {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.code-content {
+  padding: 10px 5px 0;
+  text-align: center;
+}
+
+.code-content h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.code-content p {
+  font-size: 14px;
+  color: #888888;
+}
